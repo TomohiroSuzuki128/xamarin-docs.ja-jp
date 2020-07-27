@@ -46,7 +46,7 @@ XAMLC は、新しい Xamarin.Forms ソリューションでは既定で有効�
 
 ## <a name="reduce-unnecessary-bindings"></a>不要なバインドを減らす
 
-簡単に静的に設定できるコンテンツにはバインドを利用しないでください。 バインドする必要のないデータをバインドすることには何の利点もありません。バインドはコスト効果が高くありません。 たとえば、`Button.Text = "Accept"` を設定すると、値が "Accept" のビューモデル プロパティ `string` に [`Button.Text`](xref:Xamarin.Forms.Button.Text) をバインドするより、オーバーヘッドが少なくなります。
+簡単に静的に設定できるコンテンツにはバインドを利用しないでください。 バインドは対コスト効果が悪いため、バインドする必要のないデータをバインドすることには何のメリットもありません。 たとえば、`Button.Text = "Accept"` を設定すると、値が "Accept" のビューモデル プロパティ `string` に [`Button.Text`](xref:Xamarin.Forms.Button.Text) をバインドするより、オーバーヘッドが少なくなります。
 
 ## <a name="use-fast-renderers"></a>高速レンダラーを使用する
 
